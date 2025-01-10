@@ -1,10 +1,10 @@
 <resources>
-    <!-- Button -->
+
     <style name="BakkerBartButton">
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginHorizontal">16dp</item>
-        <item name="android:backgroundTint">@color/bakkerBartPink</item> <!-- Reference to global color -->
-        <item name="android:textColor">#FFFFFF</item> <!-- Inline color for button text -->
+        <item name="android:backgroundTint">@color/bakkerBartPink</item>
+        <item name="android:textColor">#FFFFFF</item>
     </style>
     <style name="RoundedImageView" parent="">
         <item name="cornerFamily">rounded</item>

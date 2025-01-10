@@ -62,8 +62,8 @@ class Step3Activity : AppCompatActivity() {
         }
         paymentTypeSpinner.adapter = adapter
 
-        // Set font for the spinner
-        paymentTypeSpinner.setPopupBackgroundResource(android.R.color.white) // Ensure background is clean
+
+        paymentTypeSpinner.setPopupBackgroundResource(android.R.color.white)
         paymentTypeSpinner.adapter = object : ArrayAdapter<String>(
             this,
             android.R.layout.simple_spinner_item,
