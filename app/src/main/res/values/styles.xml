@@ -1,0 +1,19 @@
+<resources>
+    <!-- Button -->
+    <style name="BakkerBartButton">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:backgroundTint">@color/bakkerBartPink</item> <!-- Reference to global color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Inline color for button text -->
+    </style>
+    <style name="RoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="fontFamily">@font/bree_serif_regular</item>
+        <item name="android:textColor">@color/bakkerBartPink</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

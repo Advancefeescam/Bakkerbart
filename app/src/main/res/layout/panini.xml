@@ -1,0 +1,325 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/paniniMozzarellaImage"
+                    android:layout_width="80dp"
+                    android:layout_height="85dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="Panini Mozzarella"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/output_onlinepngtools_10_" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/productTitle_1_Panini"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="Panini Mozzarella"
+                        android:textColor="@color/bakkerBartPink"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:maxLines="1"
+                        android:ellipsize="end" />
+
+                    <TextView
+                        android:id="@+id/price_1_Panini"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="€5,00"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/productDescription_1_Panini"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="Een panini belegd met mozzarella, pesto, tomaat, pijnboompitten en rucola."
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/paniniMozzarellaCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/removePaniniMozzarellaButton"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/icons8_minus_24" />
+
+                        <Space
+                            android:layout_width="18dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/addPaniniMozzarellaButton"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="Voeg Panini Mozzarella Toe"
+                            android:src="@drawable/icons8_plus_24" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/dubbeldikkeTostiMozzarellaImage"
+                    android:layout_width="80dp"
+                    android:layout_height="85dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="Dubbeldikke Tosti Mozzarella"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/output_onlinepngtools_9_" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/productTitle_2_Panini"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="Dubbele Tosti Mozarella"
+                        android:textColor="@color/bakkerBartPink"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:maxLines="1"
+                        android:ellipsize="end" />
+
+                    <TextView
+                        android:id="@+id/price_2_Panini"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="€10,00"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/productDescription_2_Panini"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="Een dubbeldikke tosti belegd met mozzarella, tomaat en pijnboompitten."
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dubbeldikkeTostiMozzarellaCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/removeDubbeldikkeTostiMozzarellaButton"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/icons8_minus_24" />
+
+                        <Space
+                            android:layout_width="18dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/addDubbeldikkeTostiMozzarellaButton"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="Voeg Dubbeldikke Tosti Mozzarella Toe"
+                            android:src="@drawable/icons8_plus_24" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/paniniHamKaasImage"
+                    android:layout_width="80dp"
+                    android:layout_height="85dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="Panini Ham Kaas"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/output_onlinepngtools_11_" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/productTitle_3_Panini"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="Panini Ham Kaas"
+                        android:textColor="@color/bakkerBartPink"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:maxLines="1"
+                        android:ellipsize="end" />
+
+                    <TextView
+                        android:id="@+id/price_3_Panini"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="€15,00"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/productDescription_3_Panini"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/bree_serif_regular"
+                        android:text="Een panini belegd met ham en jong belegen kaas."
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/paniniHamKaasCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/removePaniniHamKaasButton"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/icons8_minus_24" />
+
+                        <Space
+                            android:layout_width="18dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/addPaniniHamKaasButton"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="Voeg Panini Ham Kaas Toe"
+                            android:src="@drawable/icons8_plus_24" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

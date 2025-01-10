@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <ScrollView
+        android:id="@+id/privacyScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:fillViewport="true"
+        android:padding="16dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bree_serif_regular"
+                android:gravity="center"
+                android:text="Privacyvoorwaarden"
+                android:textColor="@color/bakkerBartPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/privacyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bree_serif_regular"
+                android:lineSpacingExtra="8dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="16dp"
+                android:text="Privacy beleid\n\nAls Bakker Bart vinden we het belangrijk er voor te zorgen dat onze dienstverlening transparant, veilig en betrouwbaar is. Wij respecteren je privacy en zullen de persoonlijke informatie die je ons verschaft altijd vertrouwelijk behandelen.\n\nBart’s Retail B.V. (Bakker Bart) is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring. Hieronder leggen wij uit hoe we bij Bakker Bart en op onze website https://www.bakkerbart.nl/ met jouw gegevens omgaan, wat je rechten zijn en hoe je gebruik kunt maken van die rechten.\n\nHeb je nog vragen na het lezen van onze privacyverklaring? Stuur dan een mailtje naar klantenservice@bakkerbart.nl  Onze Klantenservice helpt je graag verder!\n\nPersoonsgegevens die wij verwerken\n\nEen ‘persoonsgegeven’ is alle informatie die direct over iemand gaat, of naar een individuele persoon te herleiden is.\n\nBakker Bart verwerkt je persoonsgegevens doordat je onze website weleens hebt bezocht, gebruik maakt(e) van onze diensten en/of omdat je deze gegevens zelf aan ons verstrekt.\n\nHieronder vind je een overzicht van de persoonsgegevens die wij verwerken: \n- voor- en achternaam; \n- geslacht; \n- adresgegevens; \n- e-mailadres;\n- geboortedatum \n- telefoonnummers; \n- klantnummer; \n- bank- en betaalgegevens;\n- IP-adres, internetbrowser en soort/type apparaat; \n- gegevens over jouw activiteiten op onze website; \n- informatie over bestellingen en facturen; \n- reviews: je beoordeling van onze service/producten; \n- beelden van beveiligingscamera’s; \n- overige persoonsgegevens die je actief verstrekt, bijvoorbeeld via de website, in correspondentie en telefonisch.\n\nMet welk doel en op basis van welke grondslag wij persoonsgegevens verwerken\n\nBakker Bart verwerkt jouw persoonsgegevens omdat: \n- wij dit nodig hebben voor het aangaan of uitvoeren van de overeenkomst, en/of \n- je hier toestemming voor hebt gegeven, en/of \n- wij (of een derde) daar een gerechtvaardigd belang bij hebben (bijv. ons commerciële belang om jou marketingaanbiedingen te doen, of ons belang om onze dienstverlening te kunnen verbeteren), en/of \n- wij daartoe wettelijk verplicht zijn.\n\nWij verwerken je persoonsgegevens voor de volgende doelen: \n- het afhandelen van jouw afspraak, bestelling en/of betaling; \n- om goederen en diensten bij je af te leveren; \n- om je te kunnen bellen, SMS’en of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren; \n- verzenden van onze nieuwsbrief, informatie over acties en aanbiedingen, serviceberichten en/of onderzoeken; \n- om je gepersonaliseerde reclame te tonen; \n- informeren over wijzigingen van onze diensten en producten; \n- het aanmaken, beveiligen en bijhouden van het Bart beloont-account; \n- om jou optimaal te kunnen helpen als je een vraag, probleem of klacht hebt over onze producten en diensten; \n- om je op onze website een zo persoonlijk mogelijke winkelervaring te bieden, door bijvoorbeeld het aanbod van producten en diensten af te stemmen op jouw interesses en voorkeuren; \n- voor de afhandeling van speciale acties;\n- analyses voor procesverbeteringen, rapportages, marktonderzoek, ontwikkeling en verbetering van producten en diensten;\n- het behandelen van een sollicitatie of stage-aanvraag; \n- voorkomen en bestrijden van diefstal of andere vormen van fraude;\n\nBakker Bart verwerkt ook persoonsgegevens als wij hier wettelijk toe verplicht zijn, zoals gegevens die wij nodig hebben voor onze belastingaangifte.\n\nEr zijn enkele speciale situaties die we hieronder extra toelichten.\n\nCamerabeveiliging\n\nOnze vestigingen kunnen  zijn voorzien van camera’s. Dat is van belang voor jouw veiligheid, maar ook voor die van onze collega’s en eigendommen. De camerabeelden worden na maximaal zes weken verwijderd, tenzij er goede redenen zijn om de beelden langer te bewaren, bijvoorbeeld voor onderzoek door een recherchebureau of de politie.\n\nGebruikmaken van ons wifinetwerk\n\nTijdens een bezoek aan een van onze (franchise)vestigingen kun je gratis gebruikmaken van wifi. Zodra je bent ingelogd op ons wifinetwerk, worden er automatisch gegevens verzameld zoals het identificatienummer (MAC-adres) van jouw apparaat. Deze gegevens worden na een jaar verwijderd en gebruikt Bakker Bart alleen om eventueel misbruik te voorkomen. Mochten er illegale activiteiten plaatsvinden vanuit ons wifinetwerk, dan kunnen wij de toegang van het apparaat waarmee je gebruikmaakt van ons wifinetwerk blokkeren.\n\nSollicitaties\n\nOp onze speciale website https://www.bakkerbart.nl/werken-bij-bakker-bart/vacatures vermelden wij o.a. openstaande vacatures. Wij bieden de mogelijkheid om online op een vacature te reageren, een open sollicitatie te doen of je aan te melden voor een stageplek. Via het sollicitantenportaal kun je verschillende gegevens achterlaten die relevant zijn voor de sollicitatie.\n\nVoor de afhandeling van jouw sollicitatie verwerken wij de volgende gegevens: voornaam, achternaam, geslacht, geboortedatum, adres, postcode, woonplaats, mobiel telefoonnummer, e-mailadres, opleidingsniveau, competenties, vaardigheden, hobby’s, referentie, beschikbaarheid, je cv en je motivatiebrief en natuurlijk de functie waarop gesolliciteerd is. Overige informatie zal alleen na jouw toestemming in ons systeem worden opgenomen."
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/alwaysAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bree_serif_regular"
+                android:text="Door gebruik te maken van de producten van Bakker Bart, gaat u akkoord met onze privacyvoorwaarden."
+                android:textColor="@color/bakkerBartPink" />
+
+            <ImageView
+                android:id="@+id/privacyImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/beenham" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/scrollDownButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="16dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/icons8_arrow_down_48" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

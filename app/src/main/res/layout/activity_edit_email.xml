@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeEmailActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bree_serif_regular"
+                android:gravity="start"
+                android:paddingTop="20dp"
+                android:paddingBottom="8dp"
+                android:text="Wijzig je e-mailadres"
+                android:textColor="@color/bakkerBartPink"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/newEmailInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_background"
+                android:hint="Nieuw E-mail"
+                android:padding="12dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/bree_serif_regular"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+            <EditText
+                android:id="@+id/confirmNewEmailInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_background"
+                android:hint="Bevestig Nieuw E-mail"
+                android:padding="12dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/bree_serif_regular"
+                android:textColorHint="@android:color/darker_gray" />
+
+
+            <Button
+                android:id="@+id/changeEmailButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-mail wijzigen"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/bakkerBartPink"
+                android:fontFamily="@font/bree_serif_regular"
+                android:layout_marginTop="16dp"
+                android:padding="12dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <ImageView
+                android:id="@+id/footerImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/output_onlinepngtools_6smol_" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

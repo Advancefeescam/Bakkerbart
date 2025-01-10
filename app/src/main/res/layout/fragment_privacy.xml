@@ -1,0 +1,83 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/privacyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bree_serif_regular"
+        android:text="Privacyinstellingen"
+        android:textColor="@color/bakkerBartPink"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/privacyLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/privacyTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="32dp">
+
+        <CheckBox
+            android:id="@+id/sellDataCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif_regular"
+            android:text="Verkoop gegevens aan derde partijen"
+            android:textColor="@color/bakkerBartPink"
+            android:layout_marginBottom="12dp"/>
+
+        <CheckBox
+            android:id="@+id/marketingEmailsCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif_regular"
+            android:text="Ontvang marketing e-mails"
+            android:textColor="@color/bakkerBartPink"
+            android:layout_marginBottom="12dp"/>
+
+        <CheckBox
+            android:id="@+id/marketingEmailsCheckbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif_regular"
+            android:text="Delen van data met derde partijen"
+            android:textColor="@color/bakkerBartPink"
+            android:layout_marginBottom="12dp"/>
+
+        <CheckBox
+            android:id="@+id/marketingEmailsCheckbox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif_regular"
+            android:text="Third-Party Cookies"
+            android:textColor="@color/bakkerBartPink"
+            android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/privacyButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bakkerBartPink"
+        android:fontFamily="@font/bree_serif_regular"
+        android:padding="12dp"
+        android:text="Opslaan"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/privacyLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

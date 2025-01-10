@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="47dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/bree_serif_regular"
+            android:layout_height="wrap_content"
+            android:text="Welkom bij Bakker Bart."
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:paddingTop="20dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/bakkerBartPink" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="81dp" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:fontFamily="@font/bree_serif_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registreren"
+            android:backgroundTint="@color/bakkerBartPink"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"
+            />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif_regular"
+            android:text="Inloggen"
+            android:backgroundTint="@color/bakkerBartPink"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/continueWithoutAccountButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif_regular"
+            android:text="Doorgaan zonder account"
+            android:backgroundTint="@color/bakkerBartPink"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/navigate_Privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/bree_serif_regular"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="Privacyvoorwaarden"
+            android:textColor="@color/bakkerBartPink"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Door verder te gaan, accepteer je onze algemene voorwaarden."
+            android:textSize="12sp"
+            android:fontFamily="@font/bree_serif_regular"
+            android:gravity="start"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            app:srcCompat="@drawable/baconei" />
+
+    </LinearLayout>
+</ScrollView>
